@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Solicitud de Reciclaje - Tienda Verde</title>
+    <title>Solicitud de Reciclaje - Green Shop</title>
     <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
     <script>
         // Función para actualizar las subcategorías dependiendo del tipo de residuo seleccionado
         function ActualizarCategoria() {
@@ -40,8 +41,7 @@
 </head>
 <body>
     <header>
-        <img src="logo.png" alt="Tienda Verde Logo" class="logo">
-        <h1>Tienda Verde</h1>
+        <h1 class="Titulo">Green Shop</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
@@ -52,8 +52,8 @@
     </header>
 
     <section id="reciclaje">
-        <h2>Solicitud de Reciclaje</h2>
-        <img src="reclaje.jpg" alt="Imagen de reciclaje" class="reclaje-image">
+        <h2 class="Solicitud_de_Reciclaje">Solicitud de Reciclaje</h2>
+        <img src="imagenes/reciclaje.jpg" alt="Imagen de reciclaje" class="reciclaje-image">
         <form>
             <!-- Selección del tipo de residuo -->
             <label for="Tiporeiclaje">Tipo de Residuo:</label>
@@ -78,15 +78,18 @@
             <label for="email">Correo Electrónico:</label>
             <input type="email" id="email" name="email" required>
 
-            <label for="address">Dirección:</label>
-            <input type="text" id="address" name="address" required>
+            <label for="Direccion">Dirección:</label>
+            <input type="text" id="Direccion" name="Direccion" required>
+
+            <label for="Comentarios">Comentarios:</label>
+            <input type="text" id="Comentarios" name="Comentarios" required>
 
             <input type="submit" value="Enviar Solicitud">
         </form>
     </section>
 
     <footer>
-        <p>&copy; 2024 Tienda Verde. Todos los derechos reservados.</p>
+        <p>&copy; 2024 Green Shop. Todos los derechos reservados.</p>
     </footer>
 </body>
 </html>
